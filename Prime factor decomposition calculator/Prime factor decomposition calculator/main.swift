@@ -7,7 +7,7 @@
 
 import Foundation
 
-var num:Int = 4599788129
+var num:Int = 214321322222
 print(PrimeCalculator(number: num))
 
 func PrimeCalculator(number:Int) -> String {

@@ -7,13 +7,13 @@
 
 import Foundation
 
-var e:Int64 = 5
-var n:Int64 = 55884672;
+var e:BInt = 23
+var n:BInt = BInt("53640733922314356082418985865549259857121319930286415490278447080788497853912")!
 
 print("d=" + calculateMod(e: e,mod : n))
 
-func calculateMod(e:Int64,mod:Int64) -> String {
-    var i:Int64 = 1
+func calculateMod(e:BInt,mod:BInt) -> String {
+    var i:BInt = 1
     while i < mod  {
         if (((e % mod) * (i % mod)) % mod  == 1) {
             return String(i)

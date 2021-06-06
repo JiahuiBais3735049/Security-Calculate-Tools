@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C62A1D1262536EB00F5215D /* Swift-Big-Number-Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C62A1D0262536EB00F5215D /* Swift-Big-Number-Core.swift */; };
 		4C8C1C7825FB8A230028855E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C1C7725FB8A230028855E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4C8C1C7425FB8A230028855E /* RSA decryption calculation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "RSA decryption calculation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C62A1D0262536EB00F5215D /* Swift-Big-Number-Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Swift-Big-Number-Core.swift"; path = "../../Swift-Big-Number-Core.swift"; sourceTree = "<group>"; };
+		4C8C1C7425FB8A230028855E /* RSA ElGamal Paillier Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "RSA ElGamal Paillier Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8C1C7725FB8A230028855E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +43,7 @@
 		4C8C1C6B25FB8A230028855E = {
 			isa = PBXGroup;
 			children = (
-				4C8C1C7625FB8A230028855E /* RSA decryption calculation */,
+				4C8C1C7625FB8A230028855E /* RSA ElGamal Paillier Calculator */,
 				4C8C1C7525FB8A230028855E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +51,26 @@
 		4C8C1C7525FB8A230028855E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C8C1C7425FB8A230028855E /* RSA decryption calculation */,
+				4C8C1C7425FB8A230028855E /* RSA ElGamal Paillier Calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C8C1C7625FB8A230028855E /* RSA decryption calculation */ = {
+		4C8C1C7625FB8A230028855E /* RSA ElGamal Paillier Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				4C8C1C7725FB8A230028855E /* main.swift */,
+				4C62A1D0262536EB00F5215D /* Swift-Big-Number-Core.swift */,
 			);
-			path = "RSA decryption calculation";
+			path = "RSA ElGamal Paillier Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C8C1C7325FB8A230028855E /* RSA decryption calculation */ = {
+		4C8C1C7325FB8A230028855E /* RSA ElGamal Paillier Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C8C1C7B25FB8A230028855E /* Build configuration list for PBXNativeTarget "RSA decryption calculation" */;
+			buildConfigurationList = 4C8C1C7B25FB8A230028855E /* Build configuration list for PBXNativeTarget "RSA ElGamal Paillier Calculator" */;
 			buildPhases = (
 				4C8C1C7025FB8A230028855E /* Sources */,
 				4C8C1C7125FB8A230028855E /* Frameworks */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "RSA decryption calculation";
+			name = "RSA ElGamal Paillier Calculator";
 			productName = "RSA decryption calculation";
-			productReference = 4C8C1C7425FB8A230028855E /* RSA decryption calculation */;
+			productReference = 4C8C1C7425FB8A230028855E /* RSA ElGamal Paillier Calculator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C8C1C6F25FB8A230028855E /* Build configuration list for PBXProject "RSA decryption calculation" */;
+			buildConfigurationList = 4C8C1C6F25FB8A230028855E /* Build configuration list for PBXProject "RSA ElGamal Paillier Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C8C1C7325FB8A230028855E /* RSA decryption calculation */,
+				4C8C1C7325FB8A230028855E /* RSA ElGamal Paillier Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C62A1D1262536EB00F5215D /* Swift-Big-Number-Core.swift in Sources */,
 				4C8C1C7825FB8A230028855E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C8C1C6F25FB8A230028855E /* Build configuration list for PBXProject "RSA decryption calculation" */ = {
+		4C8C1C6F25FB8A230028855E /* Build configuration list for PBXProject "RSA ElGamal Paillier Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C8C1C7925FB8A230028855E /* Debug */,
@@ -271,7 +275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C8C1C7B25FB8A230028855E /* Build configuration list for PBXNativeTarget "RSA decryption calculation" */ = {
+		4C8C1C7B25FB8A230028855E /* Build configuration list for PBXNativeTarget "RSA ElGamal Paillier Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C8C1C7C25FB8A230028855E /* Debug */,

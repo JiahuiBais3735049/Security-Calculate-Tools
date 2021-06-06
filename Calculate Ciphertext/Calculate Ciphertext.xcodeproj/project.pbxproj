@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C62A1D426253BCF00F5215D /* Swift-Big-Number-Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C62A1D326253BCF00F5215D /* Swift-Big-Number-Core.swift */; };
-		4C8C1C5025FB85C70028855E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C1C4F25FB85C70028855E /* main.swift */; };
+		4CA9A390262E5F4400018CB0 /* Swift-Big-Number-Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9A38F262E5F4400018CB0 /* Swift-Big-Number-Core.swift */; };
+		4CD80093262E504D00C24816 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD80092262E504D00C24816 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4C8C1C4A25FB85C70028855E /* CopyFiles */ = {
+		4CD8008D262E504D00C24816 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4C62A1D326253BCF00F5215D /* Swift-Big-Number-Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Swift-Big-Number-Core.swift"; path = "../../Swift-Big-Number-Core.swift"; sourceTree = "<group>"; };
-		4C8C1C4C25FB85C70028855E /* modular multiplicative inverse calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "modular multiplicative inverse calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C8C1C4F25FB85C70028855E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4CA9A38F262E5F4400018CB0 /* Swift-Big-Number-Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Swift-Big-Number-Core.swift"; path = "../../Swift-Big-Number-Core.swift"; sourceTree = "<group>"; };
+		4CD8008F262E504D00C24816 /* Calculate Ciphertext */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Calculate Ciphertext"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD80092262E504D00C24816 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C8C1C4925FB85C70028855E /* Frameworks */ = {
+		4CD8008C262E504D00C24816 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,66 +40,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C8C1C4325FB85C70028855E = {
+		4CD80086262E504D00C24816 = {
 			isa = PBXGroup;
 			children = (
-				4C8C1C4E25FB85C70028855E /* modular multiplicative inverse calculator */,
-				4C8C1C4D25FB85C70028855E /* Products */,
+				4CD80091262E504D00C24816 /* Calculate Ciphertext */,
+				4CD80090262E504D00C24816 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4C8C1C4D25FB85C70028855E /* Products */ = {
+		4CD80090262E504D00C24816 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C8C1C4C25FB85C70028855E /* modular multiplicative inverse calculator */,
+				4CD8008F262E504D00C24816 /* Calculate Ciphertext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C8C1C4E25FB85C70028855E /* modular multiplicative inverse calculator */ = {
+		4CD80091262E504D00C24816 /* Calculate Ciphertext */ = {
 			isa = PBXGroup;
 			children = (
-				4C8C1C4F25FB85C70028855E /* main.swift */,
-				4C62A1D326253BCF00F5215D /* Swift-Big-Number-Core.swift */,
+				4CD80092262E504D00C24816 /* main.swift */,
+				4CA9A38F262E5F4400018CB0 /* Swift-Big-Number-Core.swift */,
 			);
-			path = "modular multiplicative inverse calculator";
+			path = "Calculate Ciphertext";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C8C1C4B25FB85C70028855E /* modular multiplicative inverse calculator */ = {
+		4CD8008E262E504D00C24816 /* Calculate Ciphertext */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C8C1C5325FB85C70028855E /* Build configuration list for PBXNativeTarget "modular multiplicative inverse calculator" */;
+			buildConfigurationList = 4CD80096262E504D00C24816 /* Build configuration list for PBXNativeTarget "Calculate Ciphertext" */;
 			buildPhases = (
-				4C8C1C4825FB85C70028855E /* Sources */,
-				4C8C1C4925FB85C70028855E /* Frameworks */,
-				4C8C1C4A25FB85C70028855E /* CopyFiles */,
+				4CD8008B262E504D00C24816 /* Sources */,
+				4CD8008C262E504D00C24816 /* Frameworks */,
+				4CD8008D262E504D00C24816 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "modular multiplicative inverse calculator";
-			productName = "modular multiplicative inverse calculator";
-			productReference = 4C8C1C4C25FB85C70028855E /* modular multiplicative inverse calculator */;
+			name = "Calculate Ciphertext";
+			productName = "Calculate Ciphertext";
+			productReference = 4CD8008F262E504D00C24816 /* Calculate Ciphertext */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4C8C1C4425FB85C70028855E /* Project object */ = {
+		4CD80087262E504D00C24816 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					4C8C1C4B25FB85C70028855E = {
+					4CD8008E262E504D00C24816 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 4C8C1C4725FB85C70028855E /* Build configuration list for PBXProject "modular multiplicative inverse calculator" */;
+			buildConfigurationList = 4CD8008A262E504D00C24816 /* Build configuration list for PBXProject "Calculate Ciphertext" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,30 +107,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 4C8C1C4325FB85C70028855E;
-			productRefGroup = 4C8C1C4D25FB85C70028855E /* Products */;
+			mainGroup = 4CD80086262E504D00C24816;
+			productRefGroup = 4CD80090262E504D00C24816 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C8C1C4B25FB85C70028855E /* modular multiplicative inverse calculator */,
+				4CD8008E262E504D00C24816 /* Calculate Ciphertext */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C8C1C4825FB85C70028855E /* Sources */ = {
+		4CD8008B262E504D00C24816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C62A1D426253BCF00F5215D /* Swift-Big-Number-Core.swift in Sources */,
-				4C8C1C5025FB85C70028855E /* main.swift in Sources */,
+				4CA9A390262E5F4400018CB0 /* Swift-Big-Number-Core.swift in Sources */,
+				4CD80093262E504D00C24816 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4C8C1C5125FB85C70028855E /* Debug */ = {
+		4CD80094262E504D00C24816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		4C8C1C5225FB85C70028855E /* Release */ = {
+		4CD80095262E504D00C24816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +245,7 @@
 			};
 			name = Release;
 		};
-		4C8C1C5425FB85C70028855E /* Debug */ = {
+		4CD80097262E504D00C24816 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		4C8C1C5525FB85C70028855E /* Release */ = {
+		4CD80098262E504D00C24816 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C8C1C4725FB85C70028855E /* Build configuration list for PBXProject "modular multiplicative inverse calculator" */ = {
+		4CD8008A262E504D00C24816 /* Build configuration list for PBXProject "Calculate Ciphertext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C8C1C5125FB85C70028855E /* Debug */,
-				4C8C1C5225FB85C70028855E /* Release */,
+				4CD80094262E504D00C24816 /* Debug */,
+				4CD80095262E504D00C24816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C8C1C5325FB85C70028855E /* Build configuration list for PBXNativeTarget "modular multiplicative inverse calculator" */ = {
+		4CD80096262E504D00C24816 /* Build configuration list for PBXNativeTarget "Calculate Ciphertext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C8C1C5425FB85C70028855E /* Debug */,
-				4C8C1C5525FB85C70028855E /* Release */,
+				4CD80097262E504D00C24816 /* Debug */,
+				4CD80098262E504D00C24816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4C8C1C4425FB85C70028855E /* Project object */;
+	rootObject = 4CD80087262E504D00C24816 /* Project object */;
 }
